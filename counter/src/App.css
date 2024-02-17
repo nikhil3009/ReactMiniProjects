@@ -1,0 +1,17 @@
+/** @format */
+.title {
+	text-align: center;
+}
+.titlecon {
+	text-align: center;
+	color: rgb(215, 50, 50);
+}
+.btndiv {
+	text-align: center;
+}
+.btn {
+	color: blue;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10%;
+}
