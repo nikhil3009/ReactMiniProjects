@@ -1,0 +1,47 @@
+/** @format */
+
+* {
+	margin: 2px;
+}
+body {
+	font-size: 30px;
+	color: white;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.head {
+	background-color: rgb(1, 23, 23);
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.footer {
+	background-color: rgb(46, 61, 61);
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.main {
+	display: flex;
+	flex: 1;
+}
+.nav {
+	background-color: rgb(241, 6, 53);
+	padding-top: 3rem;
+	flex: 1;
+}
+.article {
+	background-color: rgb(3, 3, 33);
+	padding-top: 3rem;
+	flex: 3;
+}
+.bar {
+	background-color: rgb(1, 17, 4);
+	padding-top: 3rem;
+	flex: 1;
+}
+@media all and (max-width: 540px) {
+	.main {
+		flex-direction: column;
+	}
+}
