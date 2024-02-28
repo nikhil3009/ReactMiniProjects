@@ -11,12 +11,12 @@ function App() {
 			next: 'green',
 		},
 		yellow: {
-			duration: 1000,
+			duration: 500,
 			backGroundColor: 'yellow',
 			next: 'red',
 		},
 		green: {
-			duration: 6000,
+			duration: 10000,
 			backGroundColor: 'green',
 			next: 'yellow',
 		},
