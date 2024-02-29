@@ -1,7 +1,7 @@
 /** @format */
 
 body {
-	background-image: url(Assets/Back.jpg);
+	background-image: url(Assets/Back.webp);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -11,6 +11,7 @@ body {
 	justify-content: center;
 	min-height: 140vh;
 	align-items: center;
+	position: fixed;
 }
 .clock {
 	color: white;
