@@ -1,0 +1,52 @@
+/**
+ * Accordion.css
+ *
+ * @format
+ */
+
+.accordion-container {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	border-radius: 5px;
+	margin: 10px 0;
+	background-color: #f1f1f1;
+}
+
+.accordion-title {
+	width: 100%;
+	padding: 15px;
+	font-size: 18px;
+	text-align: left;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	cursor: pointer;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+}
+
+.accordion-title:hover,
+.accordion-title.active {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.accordion-title h3 {
+	margin: 0;
+}
+
+.accordion-title .icon {
+	float: right;
+	margin-right: 15px;
+}
+
+.accordion-content {
+	padding: 0 18px;
+	overflow: hidden;
+	background-color: #f9f9f9;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size: medium;
+	color: rgba(6, 6, 6, 0.982);
+}
